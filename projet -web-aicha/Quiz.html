@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/Quiz.css" />
+    <script src="./Quiz.js" defer></script>
+    <title>Quiz</title>
+  </head>
+  <body>
+    <header class="nav">
+      <a href="Quiz.html"><img src="images/quiz.jpg" alt="Logo" /></a>
+    </header>
+
+    <main>
+      <div>
+        <h1 class="heading">Quiz web</h1>
+        
+      </div>
+
+      <form class="form">
+        <!-- Question 1 -->
+        <div id="q1">
+          <h2 class="questions">Question 1 :</h2>
+          <h3 class="statement">
+            Comment écrire une instruction IF pour exécuter du code si "i" n'est PAS égal à 5 ?
+          </h3>
+          <input type="radio" name="q1" value="if (i!= 5)" />if (i!= 5)<br />
+          <input type="radio" name="q1" value="if i <> 5" />if i <> 5<br />
+          <input type="radio" name="q1" value="if i =! 5 then" />if i =! 5 then<br />
+          <input type="radio" name="q1" value="if (i <> 5)" />if (i <> 5)<br />
+        </div>
+
+        <!-- Question 2 -->
+        <div id="q2">
+          <h2 class="questions">Question 2 :</h2>
+          <h3 class="statement">Comment créer une fonction en JavaScript ?</h3>
+          <input type="radio" name="q2" value="function:myFunction()" />function:myFunction()<br />
+          <input type="radio" name="q2" value="function myFunction()" />function myFunction()<br />
+          <input type="radio" name="q2" value="function=myFunction()" />function=myFunction()<br />
+          <input type="radio" name="q2" value="None" />Aucun<br />
+        </div>
+
+        <!-- Question 3 -->
+        <div id="q3">
+          <h2 class="questions">Question 3 :</h2>
+          <h3 class="statement">
+            Quel événement se produit lorsque l'utilisateur clique sur un élément HTML ?
+          </h3>
+          <input type="radio" name="q3" value="onclick" />onclick<br />
+          <input type="radio" name="q3" value="onmouseover" />onmouseover<br />
+          <input type="radio" name="q3" value="onmouseclick" />onmouseclick<br />
+          <input type="radio" name="q3" value="onchange" />onchange<br />
+        </div>
+
+        <!-- Question 4 -->
+        <div id="q4">
+          <h2 class="questions">Question 4 :</h2>
+          <h3 class="statement">Comment écrire "Hello World" dans une boîte d'alerte ?</h3>
+          <input type="radio" name="q4" value='alert("Hello World");' />alert("Hello World");<br />
+          <input type="radio" name="q4" value='msgBox("Hello World");' />msgBox("Hello World");<br />
+          <input type="radio" name="q4" value='alertBox("Hello World");' />alertBox("Hello World");<br />
+          <input type="radio" name="q4" value='msg("Hello World");' />msg("Hello World");<br />
+        </div>
+
+        <!-- Question 5 -->
+        <div id="q5">
+          <h2 class="questions">Question 5 :</h2>
+          <h3 class="statement">
+            Comment trouver le nombre ayant la valeur la plus élevée entre x et y ?
+          </h3>
+          <input type="radio" name="q5" value="Math.max(x, y)" />Math.max(x, y)<br />
+          <input type="radio" name="q5" value="Math.ceil(x, y)" />Math.ceil(x, y)<br />
+          <input type="radio" name="q5" value="top(x, y)" />top(x, y)<br />
+          <input type="radio" name="q5" value="ceil(x, y)" />ceil(x, y)<br />
+        </div>
+
+        <!-- Question 6 -->
+        <div id="q6">
+          <h2 class="questions">Question 6 :</h2>
+          <h3 class="statement">Quel langage s'exécute dans un navigateur web ?</h3>
+          <input type="radio" name="q6" value="Java" />Java<br />
+          <input type="radio" name="q6" value="C" />C<br />
+          <input type="radio" name="q6" value="Python" />Python<br />
+          <input type="radio" name="q6" value="JavaScript" />JavaScript<br />
+        </div>
+
+        <!-- Question 7 -->
+        <div id="q7">
+          <h2 class="questions">Question 7 :</h2>
+          <h3 class="statement">Que signifie CSS ?</h3>
+          <input type="radio" name="q7" value="Central Style Sheets" />Central Style Sheets<br />
+          <input type="radio" name="q7" value="Cascading Style Sheets" />Cascading Style Sheets<br />
+          <input type="radio" name="q7" value="Cascading Simple Sheets" />Cascading Simple Sheets<br />
+          <input type="radio" name="q7" value="Cars SUVs Sailboats" />Cars SUVs Sailboats<br />
+        </div>
+
+        <!-- Question 8 -->
+        <div id="q8">
+          <h2 class="questions">Question 8 :</h2>
+          <h3 class="statement">Que signifie HTML ?</h3>
+          <input type="radio" name="q8" value="Hypertext Markup Language" />Hypertext Markup Language<br />
+          <input type="radio" name="q8" value="Hypertext Markdown Language" />Hypertext Markdown Language<br />
+          <input type="radio" name="q8" value="Hyperloop Machine Language" />Hyperloop Machine Language<br />
+          <input type="radio" name="q8" value="Helicopters Terminals Motorboats Lamborginis" />Helicopters Terminals Motorboats Lamborginis<br />
+        </div>
+
+        <!-- Question 9 -->
+        <div id="q9">
+          <h2 class="questions">Question 9 :</h2>
+          <h3 class="statement">
+            Quel attribut HTML gère les formats d'images responsive ?
+          </h3>
+          <input type="radio" name="q9" value="image-set()" />image-set()<br />
+          <input type="radio" name="q9" value="srcset" />srcset<br />
+          <input type="radio" name="q9" value="pictureset" />pictureset<br />
+          <input type="radio" name="q9" value="object-fit" />object-fit<br />
+        </div>
+
+        <!-- Question 10 -->
+        <div id="q10">
+          <h2 class="questions">Question 10 :</h2>
+          <h3 class="statement">
+            Quelle est la valeur par défaut de l'attribut HTML "sizes" ?
+          </h3>
+          <input type="radio" name="q10" value="inherit" />inherit<br />
+          <input type="radio" name="q10" value="auto" />auto<br />
+          <input type="radio" name="q10" value="100%" />100%<br />
+          <input type="radio" name="q10" value="100vw" />100vw<br />
+        </div>
+
+        <!-- Bouton de soumission -->
+        <input type="button" value="Soumettre" class="submit" id="Button" onclick="check()" />
+      </form>
+    </main>
+  </body>
+</html>
